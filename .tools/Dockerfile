@@ -7,9 +7,11 @@ RUN apt-get update && apt-get -y install build-essential jq nodejs npm ruby-full
 RUN gem install bundler jekyll
 
 # Add mitmproxy certificate
+USER vscode
 RUN mitmdump & sleep 2 && keytool -noprompt -importcert -alias mitmproxy -storepass changeit -keystore $JAVA_HOME/lib/security/cacerts -trustcacerts -file ~/.mitmproxy/mitmproxy-ca-cert.pem
-
-ENV PATH="${PATH}:/usr/local/lib"
+ENV HOME=/home/vscode
+USER root
+COPY --chwown=root:root /home/vscode/.mitmproxy /root/
 
 # Create the needed packages folder
 RUN mkdir -p /root/.fhir/packages
