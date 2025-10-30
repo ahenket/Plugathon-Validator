@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/java:21
+FROM mcr.microsoft.com/devcontainers/java:21-bookworm
 
 # Install system components
 RUN apt-get update && apt-get -y install build-essential jq nodejs npm ruby-full rubygems zlib1g-dev mitmproxy python3-requests python3-termcolor wget dos2unix
@@ -34,9 +34,9 @@ RUN chmod 755 /tools/show
 RUN chmod 755 /tools/tx
 
 # EU profiles are not published to the package repository's, so we'll have get them manually
-RUN mkdir -p ~/.fhir/packages
-RUN mkdir ~/.fhir/packages/hl7.fhir.eu.eps#0.0.1-ci && wget -O - https://build.fhir.org/ig/hl7-eu/eps/package.tgz | tar -xz -C ~/.fhir/packages/hl7.fhir.eu.eps#0.0.1-ci
-RUN mkdir ~/.fhir/packages/hl7.fhir.eu.hdr#current && wget -O - https://hl7.eu/fhir/hdr/package.tgz | tar -xz -C ~/.fhir/packages/hl7.fhir.eu.hdr#current
+RUN mkdir -p /var/lib/.fhir/packages
+RUN mkdir /var/lib/.fhir/packages/hl7.fhir.eu.eps#0.0.1-ci && wget -O - https://build.fhir.org/ig/hl7-eu/eps/package.tgz | tar -xz -C /var/lib/.fhir/packages/hl7.fhir.eu.eps#0.0.1-ci
+RUN mkdir /var/lib/.fhir/packages/hl7.fhir.eu.hdr#current && wget -O - https://hl7.eu/fhir/hdr/package.tgz | tar -xz -C /var/lib/.fhir/packages/hl7.fhir.eu.hdr#current
 
 RUN echo 'echo "Welcome to the Plugathon Validator container"' >> /etc/bash.bashrc
 RUN echo 'echo' >> /etc/bash.bashrc
