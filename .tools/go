@@ -20,7 +20,7 @@ if [[ $USE_NTS == "y" ]]; then
 	mitmdump -s /tools/NTS-proxy.py > /dev/null &
 	proxy_process=$!
 	sleep 2s
-	curl_line="--proxy http://localhost:8080 http://terminologieserver.nl/fhir/metadata"
+	curl_line="--proxy http://localhost:8080 https://terminologieserver.nl/fhir/metadata"
 else
 	curl_line="https://tx.fhir.org"
 fi
@@ -30,7 +30,7 @@ curl -sSf $curl_line > /dev/null
 if [ $? -eq 0 ]; then
 	if [[ $USE_NTS == "y" ]]; then
 		echo "Using the Nationale Terminologieserver"
-		txoption="-proxy localhost:8080 -tx http://terminologieserver.nl/fhir"
+		txoption="-proxy localhost:8080 -tx https://terminologieserver.nl/fhir"
 	else
 		echo "Using the default terminology server (tx.fhir.org)"
 		txoption=""
