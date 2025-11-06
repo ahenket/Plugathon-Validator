@@ -175,6 +175,8 @@ def getCodings(resource, element_name):
         elements = resource.findall(f"./f:{element_name}[f:coding]", NS)
     elif isinstance(resource, dict):
         elements = resource.get(element_name)
+        if not isinstance(elements, list):
+            elements = [elements]
 
     codings = []
     for element in elements:
@@ -298,4 +300,4 @@ if __name__ == "__main__":
         with open(ini_path, "w") as f:
             f.write("[IG]\n")
             f.write("ig = IG_generated.json\n")
-            f.write("template = fhir.base.template#current\n")
+            f.write("template = #plugathon.template\n")
