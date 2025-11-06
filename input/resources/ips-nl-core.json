@@ -2472,13 +2472,13 @@
                 },
                 "identifier": [
                     {
-                        "system": "urn:oid:2.16.840.1.113883.6.40",
+                        "system": "http://terminology.hl7.org/CodeSystem/hibccHIN",
                         "value": "+A99912345/$$52001510X3/16D20111212/S77DEFG457"
                     }
                 ],
                 "udiCarrier": [
                     {
-                        "issuer": "urn:oid:2.16.840.1.113883.6.40",
+                        "issuer": "http://terminology.hl7.org/CodeSystem/hibccHIN",
                         "carrierHRF": "+A99912345/$$52001510X3/16D20111212/S77DEFG457"
                     }
                 ],
@@ -3006,7 +3006,7 @@
                                 {
                                     "system": "http://loinc.org",
                                     "code": "8462-4",
-                                    "display": "'Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel"
+                                    "display": "Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel"
                                 }
                             ]
                         },
@@ -3519,6 +3519,11 @@
                             "system": "http://loinc.org",
                             "code": "8893-0",
                             "display": "Hartslagfrequentie [aantal/tijd] in perifere arterie d.m.v. palpatie"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8867-4",
+                            "display": "Hartslagfrequentie [aantal/tijd]"
                         }
                     ]
                 },
