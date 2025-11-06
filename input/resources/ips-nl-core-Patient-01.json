@@ -990,7 +990,7 @@
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:19.903+00:00",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-PharmaceuticalProduct"
                     ]
                 },
                 "code": {
@@ -1309,7 +1309,7 @@
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:17.902+00:00",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-PharmaceuticalProduct"
                     ]
                 },
                 "code": {
@@ -1333,7 +1333,7 @@
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:16.902+00:00",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-PharmaceuticalProduct"
                     ]
                 },
                 "code": {
@@ -1357,7 +1357,7 @@
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:12.900+00:00",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-PharmaceuticalProduct"
                     ]
                 },
                 "code": {
