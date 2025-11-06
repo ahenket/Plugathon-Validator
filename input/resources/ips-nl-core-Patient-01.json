@@ -345,8 +345,7 @@
                 "resourceType": "Patient",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T20:58:54.273+00:00",
-                    "source": "#yw4EdgA8Jtd8r12v"
+                    "lastUpdated": "2023-09-11T20:58:54.273+00:00"
                 },
                 "text": {
                     "status": "generated",
@@ -534,7 +533,6 @@
                                         "coding": [
                                             {
                                                 "system": "urn:iso:std:iso:3166",
-                                                "version": "2020-10-26T00:00:00",
                                                 "code": "NL",
                                                 "display": "Nederland"
                                             }
@@ -706,7 +704,6 @@
                                             "coding": [
                                                 {
                                                     "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
-                                                    "version": "2020-04-01T00:00:00",
                                                     "code": "6030",
                                                     "display": "Nederland"
                                                 }
@@ -792,7 +789,7 @@
                         "language": {
                             "coding": [
                                 {
-                                    "system": "urn:oid:1.0.639.1",
+                                    "system": "urn:ietf:bcp:47",
                                     "code": "nl",
                                     "display": "Nederlands"
                                 }
@@ -808,8 +805,7 @@
                 "resourceType": "AllergyIntolerance",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:20:31.983+00:00",
-                    "source": "#Y0JCfUMYOcjxIAUp"
+                    "lastUpdated": "2023-09-11T21:20:31.983+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -915,9 +911,8 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:36:23.884+00:00",
-                    "source": "#4gj8py0qpup4JnZp",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-MedicationUse2"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse2"
                     ]
                 },
                 "extension": [
@@ -994,7 +989,6 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:19.903+00:00",
-                    "source": "#hUvQ9X7ust5MASNX",
                     "profile": [
                         "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
                     ]
@@ -1019,7 +1013,6 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:34:37.680+00:00",
-                    "source": "#RVV3qKqvBGRzSeaY",
                     "profile": [
                         "http://nictiz.nl/fhir/StructureDefinition/nl-core-DispenseRequest"
                     ]
@@ -1106,9 +1099,8 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:38:53.192+00:00",
-                    "source": "#haa22yfH4941AM0r",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-MedicationAgreement"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-MedicationAgreement"
                     ]
                 },
                 "extension": [
@@ -1213,9 +1205,8 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:38:54.196+00:00",
-                    "source": "#X1jw9KhIfYQ7NqGW",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-MedicationAgreement"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-MedicationAgreement"
                     ]
                 },
                 "extension": [
@@ -1317,7 +1308,6 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:17.902+00:00",
-                    "source": "#3OSStvRzKBJGgonF",
                     "profile": [
                         "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
                     ]
@@ -1342,7 +1332,6 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:16.902+00:00",
-                    "source": "#SfFhTnhr9axtflTG",
                     "profile": [
                         "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
                     ]
@@ -1367,7 +1356,6 @@
                 "meta": {
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:30:12.900+00:00",
-                    "source": "#0GIXEb6LagbX5Pij",
                     "profile": [
                         "http://nictiz.nl/fhir/StructureDefinition/nl-core-PharmaceuticalProduct"
                     ]
@@ -1391,8 +1379,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:07.240+00:00",
-                    "source": "#JXAlfDpiqmq7q6Sw"
+                    "lastUpdated": "2023-09-29T09:38:07.240+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1425,8 +1412,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:08.238+00:00",
-                    "source": "#mwzf9NVRWJiXHymE"
+                    "lastUpdated": "2023-09-29T09:38:08.238+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1475,8 +1461,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:09.240+00:00",
-                    "source": "#1BnbHO4IqSa2t0bL"
+                    "lastUpdated": "2023-09-29T09:38:09.240+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1525,8 +1510,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:10.237+00:00",
-                    "source": "#0CBlr5UV2LNz5qeZ"
+                    "lastUpdated": "2023-09-29T09:38:10.237+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1575,8 +1559,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:11.238+00:00",
-                    "source": "#1bYj2j6hCbSBEtuC"
+                    "lastUpdated": "2023-09-29T09:38:11.238+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1620,8 +1603,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:14.238+00:00",
-                    "source": "#AldZOBwj0iLfUcHI"
+                    "lastUpdated": "2023-09-29T09:38:14.238+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1654,8 +1636,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:15.240+00:00",
-                    "source": "#lTX0UdziMZdohJsv"
+                    "lastUpdated": "2023-09-29T09:38:15.240+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1688,8 +1669,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:16.239+00:00",
-                    "source": "#vsHXMk6Nqc7QlZOE"
+                    "lastUpdated": "2023-09-29T09:38:16.239+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1722,8 +1702,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:17.237+00:00",
-                    "source": "#k9m5Pn2GyH8avmtI"
+                    "lastUpdated": "2023-09-29T09:38:17.237+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1756,8 +1735,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "7",
-                    "lastUpdated": "2023-09-29T09:38:18.239+00:00",
-                    "source": "#7LE5dHaTZ6AlyAU4"
+                    "lastUpdated": "2023-09-29T09:38:18.239+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1795,8 +1773,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:19.238+00:00",
-                    "source": "#hFis8NgNyRG90Iiu"
+                    "lastUpdated": "2023-09-29T09:38:19.238+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1834,8 +1811,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-29T09:38:22.239+00:00",
-                    "source": "#AgdCG9UTyVIVA37z"
+                    "lastUpdated": "2023-09-29T09:38:22.239+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -1910,8 +1886,7 @@
                 "resourceType": "Procedure",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:20:42.980+00:00",
-                    "source": "#a1ztmYzx8Y65zLOZ"
+                    "lastUpdated": "2023-09-11T21:20:42.980+00:00"
                 },
                 "extension": [
                     {
@@ -1994,8 +1969,7 @@
                 "resourceType": "Procedure",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:20:44.981+00:00",
-                    "source": "#iLk4i3wkzz3KhRNz"
+                    "lastUpdated": "2023-09-11T21:20:44.981+00:00"
                 },
                 "status": "unknown",
                 "code": {
@@ -2026,8 +2000,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:06.319+00:00",
-                    "source": "#NhnS5l8YhE4izC0R"
+                    "lastUpdated": "2023-09-11T21:03:06.319+00:00"
                 },
                 "status": "active",
                 "subject": {
@@ -2057,8 +2030,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:08.318+00:00",
-                    "source": "#sLXp33f24rYA2RlP"
+                    "lastUpdated": "2023-09-11T21:03:08.318+00:00"
                 },
                 "status": "active",
                 "subject": {
@@ -2094,8 +2066,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:09.317+00:00",
-                    "source": "#eDZDX700jVdyDcGC"
+                    "lastUpdated": "2023-09-11T21:03:09.317+00:00"
                 },
                 "extension": [
                     {
@@ -2164,8 +2135,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:10.316+00:00",
-                    "source": "#EDr0Xku1jricWmrH"
+                    "lastUpdated": "2023-09-11T21:03:10.316+00:00"
                 },
                 "extension": [
                     {
@@ -2239,8 +2209,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:11.316+00:00",
-                    "source": "#ysgZNvbiHWeQeIsy"
+                    "lastUpdated": "2023-09-11T21:03:11.316+00:00"
                 },
                 "status": "active",
                 "subject": {
@@ -2266,8 +2235,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:12.316+00:00",
-                    "source": "#TeW46GML8WZ8EDxI"
+                    "lastUpdated": "2023-09-11T21:03:12.316+00:00"
                 },
                 "status": "active",
                 "subject": {
@@ -2288,8 +2256,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:13.316+00:00",
-                    "source": "#s2NyRkxrFhqp9f1y"
+                    "lastUpdated": "2023-09-11T21:03:13.316+00:00"
                 },
                 "status": "active",
                 "subject": {
@@ -2316,8 +2283,7 @@
                 "resourceType": "DeviceUseStatement",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:14.316+00:00",
-                    "source": "#m9XLO8d0IrELSnnv"
+                    "lastUpdated": "2023-09-11T21:03:14.316+00:00"
                 },
                 "status": "active",
                 "subject": {
@@ -2344,8 +2310,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:04.317+00:00",
-                    "source": "#XfN2gRpcfD9ANxhR"
+                    "lastUpdated": "2023-09-11T21:03:04.317+00:00"
                 },
                 "type": {
                     "coding": [
@@ -2369,8 +2334,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:05.317+00:00",
-                    "source": "#ypvyvP4kWyLZC6QH"
+                    "lastUpdated": "2023-09-11T21:03:05.317+00:00"
                 },
                 "type": {
                     "coding": [
@@ -2399,8 +2363,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:02.317+00:00",
-                    "source": "#D7tzc84MH5am4U5B"
+                    "lastUpdated": "2023-09-11T21:03:02.317+00:00"
                 },
                 "type": {
                     "coding": [
@@ -2424,8 +2387,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:03.318+00:00",
-                    "source": "#4MCTWZagGgqV9Jo0"
+                    "lastUpdated": "2023-09-11T21:03:03.318+00:00"
                 },
                 "identifier": [
                     {
@@ -2465,8 +2427,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:00.318+00:00",
-                    "source": "#v3HryNDXVKVuqVEC"
+                    "lastUpdated": "2023-09-11T21:03:00.318+00:00"
                 },
                 "identifier": [
                     {
@@ -2507,8 +2468,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:03:01.319+00:00",
-                    "source": "#9x2BvAiWH1GlSIeD"
+                    "lastUpdated": "2023-09-11T21:03:01.319+00:00"
                 },
                 "identifier": [
                     {
@@ -2544,8 +2504,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:02:57.319+00:00",
-                    "source": "#l7o0gZK83TiktG0M"
+                    "lastUpdated": "2023-09-11T21:02:57.319+00:00"
                 },
                 "type": {
                     "coding": [
@@ -2574,8 +2533,7 @@
                 "resourceType": "Device",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:02:59.317+00:00",
-                    "source": "#sd2VSU8WhEDi554K"
+                    "lastUpdated": "2023-09-11T21:02:59.317+00:00"
                 },
                 "identifier": [
                     {
@@ -2616,8 +2574,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:21.377+00:00",
-                    "source": "#0gPm5xVlIVu6QlEm"
+                    "lastUpdated": "2023-09-11T21:01:21.377+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -2689,8 +2646,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:23.376+00:00",
-                    "source": "#yZJJLs1hYA0OEgkM"
+                    "lastUpdated": "2023-09-11T21:01:23.376+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -2749,8 +2705,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:25.376+00:00",
-                    "source": "#6mZnMh1hI8qDNUQ7"
+                    "lastUpdated": "2023-09-11T21:01:25.376+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -2833,8 +2788,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:26.376+00:00",
-                    "source": "#kUgCTOgHBnZoHxzM"
+                    "lastUpdated": "2023-09-11T21:01:26.376+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -2906,8 +2860,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:21:40.857+00:00",
-                    "source": "#RtVdhdtFkHdkc4Oq"
+                    "lastUpdated": "2023-09-11T21:21:40.857+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -2968,8 +2921,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-14T16:37:42.033+00:00",
-                    "source": "#yXbZtkSWtpBkyi7J"
+                    "lastUpdated": "2023-09-14T16:37:42.033+00:00"
                 },
                 "extension": [
                     {
@@ -3131,8 +3083,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:02.379+00:00",
-                    "source": "#faHsCMrjhNdWnb34"
+                    "lastUpdated": "2023-09-11T21:01:02.379+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -3202,8 +3153,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:03.378+00:00",
-                    "source": "#fK3Zqt7LZ6knNamC"
+                    "lastUpdated": "2023-09-11T21:01:03.378+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -3256,8 +3206,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:04.378+00:00",
-                    "source": "#fzW3q8EcihdwrizS"
+                    "lastUpdated": "2023-09-11T21:01:04.378+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -3327,8 +3276,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:17.377+00:00",
-                    "source": "#gu4SkSyYs9UW16b7"
+                    "lastUpdated": "2023-09-11T21:01:17.377+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -3385,8 +3333,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:19.378+00:00",
-                    "source": "#7auFVMltm5o3ozHe"
+                    "lastUpdated": "2023-09-11T21:01:19.378+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -3485,8 +3432,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:31.376+00:00",
-                    "source": "#MDh6NrMn5F1Thos2"
+                    "lastUpdated": "2023-09-11T21:01:31.376+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -3553,8 +3499,7 @@
                 "resourceType": "Observation",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:01:39.377+00:00",
-                    "source": "#lDBKQwH83pqPrkRX"
+                    "lastUpdated": "2023-09-11T21:01:39.377+00:00"
                 },
                 "status": "final",
                 "category": [
@@ -3624,8 +3569,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:02:22.596+00:00",
-                    "source": "#8XT7XbXralvJipU0"
+                    "lastUpdated": "2023-09-11T21:02:22.596+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -3671,8 +3615,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:02:23.597+00:00",
-                    "source": "#kYb9ndUzKU7jrYsQ"
+                    "lastUpdated": "2023-09-11T21:02:23.597+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -3718,8 +3661,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-14T16:58:32.398+00:00",
-                    "source": "#qCkhY6f0NH5nQAmN"
+                    "lastUpdated": "2023-09-14T16:58:32.398+00:00"
                 },
                 "extension": [
                     {
@@ -3804,8 +3746,7 @@
                 "resourceType": "Condition",
                 "meta": {
                     "versionId": "2",
-                    "lastUpdated": "2023-09-14T16:58:33.397+00:00",
-                    "source": "#oMOnuZg0oGTL6KqE"
+                    "lastUpdated": "2023-09-14T16:58:33.397+00:00"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -3839,8 +3780,7 @@
                 "resourceType": "Consent",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:20:32.983+00:00",
-                    "source": "#YuppQ5XDRtaJymE4"
+                    "lastUpdated": "2023-09-11T21:20:32.983+00:00"
                 },
                 "extension": [
                     {
@@ -3926,8 +3866,7 @@
                 "resourceType": "Consent",
                 "meta": {
                     "versionId": "1",
-                    "lastUpdated": "2023-09-11T21:20:34.982+00:00",
-                    "source": "#NmmbTFiiJk72ON0i"
+                    "lastUpdated": "2023-09-11T21:20:34.982+00:00"
                 },
                 "extension": [
                     {
