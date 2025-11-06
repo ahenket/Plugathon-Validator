@@ -2446,7 +2446,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "360283003",
-                            "display": "gehoorapparaat"
+                            "display": "auditief hulpmiddel"
                         }
                     ]
                 },
@@ -2487,7 +2487,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "14106009",
-                            "display": "pacemaker"
+                            "display": "cardiale pacemaker"
                         }
                     ]
                 },
@@ -2602,7 +2602,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "2947-0",
-                            "display": "Sodium [Moles/volume] in Blood"
+                            "display": "Natrium [mol/volume] in bloed"
                         }
                     ]
                 },
@@ -2674,7 +2674,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "22314-9",
-                            "display": "Hepatitis A virus IgM Ab [Presence] in Serum"
+                            "display": "Hepatitis A-virus As.IgM [aanwezigheid] in serum"
                         }
                     ]
                 },
@@ -2689,7 +2689,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "165996008",
-                            "display": "hepatitis A-test negatief"
+                            "display": "hepatitis A-virus niet aangetoond"
                         }
                     ]
                 },
@@ -2733,7 +2733,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "718-7",
-                            "display": "Hemoglobine"
+                            "display": "Hemoglobine [massa/volume] in bloed"
                         }
                     ]
                 },
@@ -2816,7 +2816,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "20570-8",
-                            "display": "Hematocriet"
+                            "display": "Erytrocyt/monstervolume [volumefractie] in bloed d.m.v. berekend"
                         }
                     ]
                 },
@@ -2888,7 +2888,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "24360-0",
-                            "display": "hemoglobine & hematocriet panel"
+                            "display": "Hemoglobine & hematocriet panel in bloed"
                         }
                     ]
                 },
@@ -2931,7 +2931,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "33586001",
-                                    "display": "Zittende positie"
+                                    "display": "zittende positie"
                                 }
                             ]
                         }
@@ -2954,7 +2954,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "85354-9",
-                            "display": "Blood pressure panel with all children optional"
+                            "display": "Bloeddruk panel waarvan alle leden optioneel in arterieel vaatstelsel"
                         }
                     ]
                 },
@@ -2969,7 +2969,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "368209003",
-                            "display": "Rechter bovenarm"
+                            "display": "structuur van rechter bovenarm"
                         }
                     ]
                 },
@@ -2978,7 +2978,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "371911009",
-                            "display": "Bloeddrukmeting met gebruikmaking van manchet"
+                            "display": "bloeddrukmeting met gebruikmaking van manchet"
                         }
                     ]
                 },
@@ -2989,7 +2989,7 @@
                                 {
                                     "system": "http://loinc.org",
                                     "code": "8480-6",
-                                    "display": "Systolic blood pressure"
+                                    "display": "Intravasculaire systolische bloeddruk [druk] in arterieel vaatstelsel"
                                 }
                             ]
                         },
@@ -3006,7 +3006,7 @@
                                 {
                                     "system": "http://loinc.org",
                                     "code": "8462-4",
-                                    "display": "Diastolic blood pressure"
+                                    "display": "'Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel"
                                 }
                             ]
                         },
@@ -3023,7 +3023,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "85549003",
-                                    "display": "Korotkofftonen (waarneembare entiteit)"
+                                    "display": "Korotkofftonen"
                                 }
                             ]
                         },
@@ -3032,7 +3032,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "255271000",
-                                    "display": "Fase 4"
+                                    "display": "fase 4"
                                 }
                             ]
                         }
@@ -3043,7 +3043,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "70665002",
-                                    "display": "Blood pressure cuff"
+                                    "display": "bloeddrukmanchet"
                                 }
                             ]
                         },
@@ -3052,7 +3052,7 @@
                                 {
                                     "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
                                     "code": "STD",
-                                    "display": "Standaard (Standaard manchet voor een volwassene (manchet 16x30 cm)"
+                                    "display": "Standaard"
                                 }
                             ]
                         }
@@ -3063,7 +3063,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "6797001",
-                                    "display": "gemiddelde bloeddruk (waarneembare entiteit)"
+                                    "display": "gemiddelde bloeddruk"
                                 }
                             ]
                         },
@@ -3102,7 +3102,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "8302-2",
-                            "display": "Body height"
+                            "display": "Lichaamslengte [afmeting]"
                         }
                     ]
                 },
@@ -3130,7 +3130,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "425260001",
-                                    "display": "Body position for height measurement"
+                                    "display": "lichaamshouding voor bepalen van lengte"
                                 }
                             ]
                         },
@@ -3139,7 +3139,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "10904000",
-                                    "display": "Staande positie"
+                                    "display": "staande positie"
                                 }
                             ]
                         }
@@ -3172,7 +3172,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "8310-5",
-                            "display": "Body temperature"
+                            "display": "Lichaamstemperatuur [temperatuur]"
                         },
                         {
                             "system": "http://snomed.info/sct",
@@ -3225,7 +3225,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "29463-7",
-                            "display": "Body weight"
+                            "display": "Lichaamsgewicht [massa]"
                         }
                     ]
                 },
@@ -3253,7 +3253,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "248159006",
-                                    "display": "State of dress"
+                                    "display": "staat van kleding"
                                 }
                             ]
                         },
@@ -3262,7 +3262,7 @@
                                 {
                                     "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.8.1",
                                     "code": "DIAPER",
-                                    "display": "Diaper"
+                                    "display": "Luier"
                                 }
                             ]
                         }
@@ -3295,7 +3295,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "9843-4",
-                            "display": "Head Occipital-frontal circumference"
+                            "display": "Fronto-occipitale omtrek [afmeting] in hoofd"
                         }
                     ]
                 },
@@ -3321,7 +3321,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "31561000146107",
-                            "display": "Ultrasound measurement of skull circumference"
+                            "display": "bepalen van schedelomtrek met echografie"
                         }
                     ]
                 }
@@ -3352,7 +3352,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "8867-4",
-                            "display": "Heart rate"
+                            "display": "Hartslagfrequentie [aantal/tijd]"
                         }
                     ]
                 },
@@ -3378,7 +3378,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "37931006",
-                            "display": "Auscultatie"
+                            "display": "auscultatie"
                         }
                     ]
                 },
@@ -3389,7 +3389,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "301112006",
-                                    "display": "Finding of heart rhythm"
+                                    "display": "bevinding betreffende hartritme"
                                 }
                             ]
                         },
@@ -3398,7 +3398,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "361137007",
-                                    "display": "Onregelmatige hartslag"
+                                    "display": "onregelmatige hartslag"
                                 }
                             ]
                         }
@@ -3409,7 +3409,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "301113001",
-                                    "display": "Finding of heart rate"
+                                    "display": "bevinding betreffende hartfrequentie"
                                 }
                             ]
                         },
@@ -3418,7 +3418,7 @@
                                 {
                                     "system": "http://snomed.info/sct",
                                     "code": "48867003",
-                                    "display": "Bradycardie"
+                                    "display": "bradycardie"
                                 }
                             ]
                         }
@@ -3451,12 +3451,12 @@
                         {
                             "system": "http://loinc.org",
                             "code": "2708-6",
-                            "display": "Oxygen saturation in Arterial blood"
+                            "display": "Zuurstofverzadiging [massafractie] in arterieel bloed"
                         },
                         {
                             "system": "http://loinc.org",
                             "code": "59408-5",
-                            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+                            "display": "Zuurstofverzadiging [massafractie] in arterieel bloed d.m.v. pulsoxymetrie"
                         }
                     ]
                 },
@@ -3518,7 +3518,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "8893-0",
-                            "display": "Heart rate Peripheral artery by palpation"
+                            "display": "Hartslagfrequentie [aantal/tijd] in perifere arterie d.m.v. palpatie"
                         }
                     ]
                 },
@@ -3678,7 +3678,7 @@
                         {
                             "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                             "code": "inactive",
-                            "display": "Not active"
+                            "display": "Inactive"
                         }
                     ]
                 },
@@ -3722,7 +3722,7 @@
                             {
                                 "system": "http://snomed.info/sct",
                                 "code": "26893007",
-                                "display": "lies"
+                                "display": "structuur van regio inguinalis"
                             }
                         ]
                     }
@@ -3753,7 +3753,7 @@
                         {
                             "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                             "code": "inactive",
-                            "display": "Not active"
+                            "display": "Inactive"
                         }
                     ]
                 },
