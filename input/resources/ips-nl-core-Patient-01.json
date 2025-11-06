@@ -1014,7 +1014,7 @@
                     "versionId": "1",
                     "lastUpdated": "2023-09-14T20:34:37.680+00:00",
                     "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/nl-core-DispenseRequest"
+                        "http://nictiz.nl/fhir/StructureDefinition/mp-DispenseRequest"
                     ]
                 },
                 "extension": [
