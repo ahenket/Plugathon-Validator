@@ -295,7 +295,8 @@
                             ]
                         },
                         "text": {
-                            "status": "generated"
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>History of Past Illness</caption><thead><tr><th>Code</th><th>Category</th><th>Status</th><th>Period</th></tr></thead><tbody><tr id=\"Condition-urn:uuid:6516896e-a9dd-4e46-9363-bf84339fccc2\"><td> Onder toezichtstelling (ots) </td><td> juridische status van patiënt </td><td> Inactive </td><td>2018-01-01 - 2020-01-01</td></tr><tr id=\"Condition-urn:uuid:4cb5ec89-01b2-4b11-b6f8-ce825c47e7a2\"><td> Bewindvoering </td><td> type voogd </td><td> Inactive </td><td>2018-01-01 - 2020-01-01</td></tr><tr id=\"Condition-urn:uuid:f508eef0-b7fb-44d4-9772-a17126d450db\"><td> irritatief contacteczeem door incontinentie </td><td> aandoening van huid </td><td> Inactive </td><td>2014-09-10</td></tr><tr id=\"Condition-urn:uuid:3b5f4025-ca4d-4790-bff2-33b15225d11c\"><td> urine-incontinentie </td><td></td><td> Inactive </td><td>2014-06-01</td></tr></tbody></table></div>"
                         },
                         "entry": [
                             {
@@ -3591,7 +3592,7 @@
                             {
                                 "system": "http://snomed.info/sct",
                                 "code": "303186005",
-                                "display": "juridische status van pati\u00c3\u00abnt"
+                                "display": "juridische status van patiënt"
                             }
                         ]
                     }
