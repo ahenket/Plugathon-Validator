@@ -1139,7 +1139,7 @@
                             {
                                 "system": "http://snomed.info/sct",
                                 "code": "33633005",
-                                "display": "medicatieafspraak"
+                                "display": "voorschrijven van geneesmiddel"
                             }
                         ]
                     }
