@@ -1229,8 +1229,8 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "code": "16076005",
-                                "display": "voorschrijven"
+                                "code": "33633005",
+                                "display": "voorschrijven van geneesmiddel"
                             }
                         ]
                     }
@@ -1250,17 +1250,6 @@
                     "type": "PractitionerRole",
                     "display": "Healthcare professional (role), R. Jansen"
                 },
-                "reasonCode": [
-                    {
-                        "coding": [
-                            {
-                                "system": "http://snomed.info/sct",
-                                "code": "266709005",
-                                "display": "medicatie gestart"
-                            }
-                        ]
-                    }
-                ],
                 "reasonReference": [
                     {
                         "type": "Condition",
