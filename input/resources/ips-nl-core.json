@@ -1086,9 +1086,9 @@
                     "numberOfRepeatsAllowed": 0,
                     "quantity": {
                         "value": 40,
-                        "unit": "stuks",
+                        "unit": "stuk",
                         "system": "http://unitsofmeasure.org",
-                        "code": "{stuks}"
+                        "code": "1"
                     }
                 }
             }
@@ -1191,7 +1191,7 @@
                                     "value": 1,
                                     "unit": "stuk",
                                     "system": "http://unitsofmeasure.org",
-                                    "code": "{stuk}"
+                                    "code": "1"
                                 }
                             }
                         ]
